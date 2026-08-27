@@ -546,7 +546,7 @@ The main improvements are:
 
 The key engineering lesson is that RAG quality can fail at multiple layers. Improving the system therefore requires looking beyond embeddings and vector similarity and debugging the complete pipeline from **query → retrieval → ranking → context → generation → citation**.
 
-## 16. Implementation Status
+<!-- ## 16. Implementation Status
 
 ### Implemented
 
@@ -580,4 +580,4 @@ The key engineering lesson is that RAG quality can fail at multiple layers. Impr
 - Production-scale capacity testing
 - Production token-cost dashboards
 
-These limitations are intentionally documented so that the demo does not claim production capabilities that have not been implemented or measured.
+These limitations are intentionally documented so that the demo does not claim production capabilities that have not been implemented or measured. -->
