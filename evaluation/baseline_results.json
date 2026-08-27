@@ -1,0 +1,367 @@
+[
+  {
+    "id": "Q001",
+    "question": "What is the expense submission deadline?",
+    "expected_answer": "Expenses must be submitted through the ExpensePath system within 30 calendar days of the purchase date.",
+    "expected_document": "ExpensePolicy.pdf",
+    "type": "straightforward",
+    "difficulty": "easy",
+    "expected_facts": [
+      "30 calendar days",
+      "purchase date"
+    ],
+    "generated_answer": "The expense submission deadline is within 30 calendar days of the purchase date. Reports submitted after 60 days require written justification and VP approval and may be denied at the Company's discretion.",
+    "retrieved_documents": [
+      {
+        "rank": 1,
+        "document": "ExpensePolicy.pdf",
+        "page": 1,
+        "content": "Category\nStandard Limit\nApproval Required Above Limit\nClient meals\n$100/person\nDirector\nTeam meals / offsites\n$75/person\nManager\nGround transportation\nActual cost\nN/A\nSoftware / SaaS subscriptions\n$500/year\nDepartment VP\nOffice supplies\n$150/month\nManager\nProfessional development\n$1,000/year\nManager\nClient gifts\n$75/recipient\nDirector\n4. Submission Process\nAll expenses must be submitted through the ExpensePath system within 30 calendar days of the purchase\ndate. Reports submitted after 60 days require written justification and VP approval, and may be denied at the\nCompany's discretion.\n5. Receipt Requirements\nAn itemized receipt is required for any single expense of $25 or more. Credit card statements alone are not\nsufficient documentation. For meals, the receipt must show the itemized order — not just the total — along with\nthe business purpose and names of attendees.\n6. Non-Reimbursable Expenses\n\nTraffic or parking fines, and other personal legal violations."
+      },
+      {
+        "rank": 2,
+        "document": "ExpensePolicy.pdf",
+        "page": 1,
+        "content": "Northwind Traders, Inc. — Internal Use Only\nPage 1\nBusiness Expense & Reimbursement Policy\nNorthwind Traders, Inc. | Finance Department | Effective: February 1, 2026 | Version 5.1 | Policy Owner: Corporate\nController\n1. Purpose\nThis policy defines what business expenses Northwind Traders will reimburse, the approval process, and\ndocumentation requirements. It applies to all employees who incur expenses on the Company's behalf.\n2. General Principles\n\nExpenses must be reasonable, necessary, and directly related to Company business.\n\nEmployees should select the most cost-effective option available that meets the business need.\n\nThe Company does not reimburse expenses for spouses, family members, or guests unless pre-approved\nfor a specific business purpose.\n3. Expense Categories & Limits\n Category\nStandard Limit\nApproval Required Above Limit\nClient meals\n$100/person\nDirector\nTeam meals / offsites\n$75/person\nManager\nGround transportation\nActual cost\nN/A\nSoftware / SaaS subscriptions"
+      },
+      {
+        "rank": 3,
+        "document": "TravelPolicy.docx",
+        "page": null,
+        "content": "Employees may choose actual-cost reimbursement (with itemized receipts) or the standard per-diem rate below, but may not mix both methods within a single trip.\n7. International Travel\nEmployees traveling internationally must confirm passport validity (6+ months beyond return date) and any visa requirements at least 3 weeks before departure. Check current travel advisories with the Security team before booking travel to a Level 3 or 4 State Department advisory country; such trips require VP approval.\n8. Reimbursement Process\nSubmit all trip expenses through ExpensePath within 30 calendar days of trip completion, with itemized receipts for any expense of $25 or more. See the Expense Policy for the full approval matrix.\n9. Non-Reimbursable Items\nAirline seat upgrades beyond the class permitted above.\nTravel insurance for personal trips extended before or after business travel.\nIn-flight entertainment, mini-bar charges, and personal streaming subscriptions.\nTraffic and parking fines."
+      },
+      {
+        "rank": 4,
+        "document": "ExpensePolicy.pdf",
+        "page": 2,
+        "content": "Northwind Traders, Inc. — Internal Use Only\nPage 2\n\nAirline seat upgrades beyond the class permitted under the Travel Policy.\n\nPersonal entertainment, mini-bar charges, and in-flight movies.\n\nSpa services, gym fees while traveling, and personal grooming.\n\nAlcohol at value greater than $30/person, unless pre-approved for a client event.\n7. Approval Matrix\n Expense Amount\nRequired Approver\nUp to $500\nDirect Manager\n$500 – $2,500\nDepartment Director\n$2,500 – $10,000\nDepartment VP\nAbove $10,000\nVP + Finance Business Partner\n8. Reimbursement Timeline\nApproved expense reports are reimbursed via direct deposit within 7 business days of final approval, on the\nCompany's standard bi-weekly payment cycle.\n9. Contact\nQuestions: ap@northwindtraders.example or the #ask-finance Slack channel."
+      },
+      {
+        "rank": 5,
+        "document": "LeavePolicy.pdf",
+        "page": 2,
+        "content": "Northwind Traders, Inc. — Internal Use Only\nPage 2\n\nMemorial Day\n\nJuneteenth\n\nIndependence Day\n\nLabor Day\n\nThanksgiving Day\n\nDay after Thanksgiving\n\nChristmas Eve\n\nChristmas Day\n\nNew Year's Eve (half day)\n3. Requesting Leave\nPTO requests of 3 days or fewer should be submitted through the WorkdayHR portal at least 5 business days in\nadvance. Requests of more than 3 consecutive days require 15 business days' notice and written manager\napproval. Approval is based on business needs and team coverage, and requests are addressed in the order\nreceived.\n4. Unplanned Absences\nEmployees who are unexpectedly unable to work must notify their direct manager no later than the start of their\nscheduled shift, by phone or Slack. More than 3 unplanned absences in a rolling 90-day period may trigger a\nreview under the Attendance Guidelines.\n5. Leave Without Pay\nUnpaid leave may be granted at the Company's discretion once an employee has exhausted all applicable paid"
+      }
+    ]
+  },
+  {
+    "id": "Q002",
+    "question": "What is the Enterprise price?",
+    "expected_answer": "The 2026 Enterprise price is $109 per seat per month.",
+    "expected_document": "Pricing2026.pdf",
+    "type": "version-sensitive",
+    "difficulty": "medium",
+    "expected_facts": [
+      "$109",
+      "per seat per month",
+      "2026"
+    ],
+    "generated_answer": "The Enterprise tier price for 2026 is $107 per seat per month.\n\n(This is based on the 2025 Enterprise price of $99/seat/month increased approximately 8–10% as stated in the 2026 rate card overview. The exact 2026 Enterprise price is not explicitly listed, but applying the stated increase to the 2025 price gives approximately $107.)",
+    "retrieved_documents": [
+      {
+        "rank": 1,
+        "document": "Pricing2026.pdf",
+        "page": 1,
+        "content": "Northwind Traders, Inc. — Internal Use Only\nPage 1\nOrbitSuite Pricing — 2026 Rate Card\nNorthwind Traders, Inc. | Sales Operations | Effective: January 1, 2026 | Version 1.0 | Supersedes: 2025 Rate Card (v1.4)\n1. Overview\nThis document summarizes Northwind Traders' standard list pricing for the OrbitSuite platform, effective for\ncontracts signed on or after January 1, 2026. It replaces the 2025 rate card. Customers on active 2025\ncontracts keep their contracted rate through their current renewal date.\n2. What's Changed for 2026\n\nList prices increased approximately 8–10% across all tiers to reflect added platform capacity.\n\nNew Enterprise Plus tier introduced for large, multi-region deployments.\n\nAPI limits raised on the Professional tier from 50k to 100k calls/month.\n\nAudit logs & data residency controls now included on Enterprise (previously Enterprise Plus only).\n3. Subscription Tiers\nTier\nPrice / Seat / Month\nMinimum Seats\nSupport Level\nStarter\n$32\n5\nEmail, 2-business-day SLA"
+      },
+      {
+        "rank": 2,
+        "document": "Pricing2026.pdf",
+        "page": 2,
+        "content": "Northwind Traders, Inc. — Internal Use Only\nPage 2\n\nAdvanced Analytics: +$14/seat/month\n\nPremium Integrations Pack: +$9/seat/month\n\nAdditional sandbox environment: $275/month flat\n\nOnboarding & implementation package: starting at $4,500 one-time (Enterprise and above)\n6. Billing Terms\nMonthly billing is available on all tiers except Enterprise Plus, which requires annual prepaid billing. Annual,\nprepaid contracts receive a 15% discount versus monthly billing (see the Discount Schedule for full details).\nStandard contract term is 12 months with auto-renewal, cancellable with 30 days' written notice prior to\nrenewal.\n7. Notes\nPricing in this document reflects U.S. dollar list pricing effective January 1, 2026 and supersedes\nPricing2025.pdf. Regional resellers should apply local currency conversion per the quarterly FX update from\nSales Operations."
+      },
+      {
+        "rank": 3,
+        "document": "Pricing2025.pdf",
+        "page": 1,
+        "content": "Northwind Traders, Inc. — Internal Use Only\nPage 1\nOrbitSuite Pricing — 2025 Rate Card\nNorthwind Traders, Inc. | Sales Operations | Effective: January 1, 2025 – December 31, 2025 | Version 1.4\n1. Overview\nThis document summarizes Northwind Traders' standard list pricing for the OrbitSuite platform, effective for\ncontracts signed in calendar year 2025. For custom or enterprise-negotiated pricing, contact Sales Operations.\n2. Subscription Tiers\nTier\nPrice / Seat / Month\nMinimum Seats\nSupport Level\nStarter\n$29\n5\nEmail, 2-business-day SLA\nProfessional\n$59\n10\nEmail + chat, next-business-day\nSLA\nEnterprise\n$99\n25\nDedicated CSM, 4-hour SLA\n3. Tier Feature Comparison\nFeature\nStarter\nProfessional\nEnterprise\nCore workflow automation\nYes\nYes\nYes\nAPI access\nLimited (1k calls/mo)\n50k calls/mo\nUnlimited\nSingle sign-on (SSO)\nNo\nYes\nYes\nCustom reporting\nNo\nYes\nYes\nAudit logs & data residency controls\nNo\nNo\nYes\nUptime SLA\n99.5%\n99.5%\n99.9%\n4. Add-On Modules\n\nAdvanced Analytics: +$12/seat/month\n"
+      },
+      {
+        "rank": 4,
+        "document": "Pricing2025.pdf",
+        "page": 1,
+        "content": "Single sign-on (SSO)\nNo\nYes\nYes\nCustom reporting\nNo\nYes\nYes\nAudit logs & data residency controls\nNo\nNo\nYes\nUptime SLA\n99.5%\n99.5%\n99.9%\n4. Add-On Modules\n\nAdvanced Analytics: +$12/seat/month\n\nPremium Integrations Pack: +$8/seat/month\n\nAdditional sandbox environment: $250/month flat\n\nOnboarding & implementation package: starting at $4,000 one-time (Enterprise only)\n5. Billing Terms\nMonthly billing is available on all tiers. Annual, prepaid contracts receive a 15% discount versus monthly billing\n(see the Discount Schedule for full details). Standard contract term is 12 months with auto-renewal, cancellable\nwith 30 days' written notice prior to renewal."
+      },
+      {
+        "rank": 5,
+        "document": "Discounts.xlsx",
+        "page": null,
+        "content": "Sheet: Special Programs\nSpecial Program Discounts,Unnamed: 1,Unnamed: 2,Unnamed: 3\r\n\"Sales Operations  |  Effective: January 1, 2026  |  Version 2.0\",,,\r\n,,,\r\nProgram,Discount %,Eligibility Criteria,Illustrative Price ($/seat/mo)\r\nNon-Profit,0.2,Valid 501(c)(3) status (or equivalent non-U.S. registered charity).,52\r\nEducation,0.25,Accredited educational institution; requires institutional .edu (or equivalent) email domain.,48.75\r\nStartup — Year 1,0.3,Company incorporated under 3 years; total funding raised under $5M; verified by Sales Operations.,45.5\r\nStartup — Year 2 Renewal,0.15,Applies at first renewal following the Year 1 startup discount; reverts to standard pricing in Year 3.,55.25\r\n,,,\r\nSpecial program discounts do not stack with volume or term discounts; the highest applicable single discount applies. All special program accounts are subject to annual re-verification of eligibility.,,,"
+      }
+    ]
+  },
+  {
+    "id": "Q003",
+    "question": "What is the password expiration policy?",
+    "expected_answer": "Standard user accounts protected by MFA do not require password rotation on a fixed schedule and only need rotation when there is evidence of compromise. Privileged or administrative accounts must rotate credentials every 90 days.",
+    "expected_document": "PasswordPolicy.docx",
+    "type": "straightforward",
+    "difficulty": "medium",
+    "expected_facts": [
+      "90 days",
+      "MFA",
+      "privileged"
+    ],
+    "generated_answer": "The password expiration policy is as follows:\n\n- Standard user accounts protected by multi-factor authentication (MFA) are not required to rotate passwords on a fixed schedule and only need to rotate passwords when there is evidence of compromise.\n- Privileged/administrative accounts must rotate credentials every 90 days regardless of MFA status.",
+    "retrieved_documents": [
+      {
+        "rank": 1,
+        "document": "PasswordPolicy.docx",
+        "page": null,
+        "content": "Password & Authentication Policy\nNorthwind Traders, Inc.  |  Information Technology  |  Effective: March 1, 2026  |  Version 4.0  |  Policy Owner: Chief Information Security Officer\n1. Purpose\nThis policy establishes minimum requirements for passwords and authentication used to access Northwind Traders systems, applications, and data, in order to reduce the risk of unauthorized account access.\n2. Password Requirements\nAll Company account passwords must meet the following minimum requirements:\n3. Password Rotation\nConsistent with current NIST guidance, standard user accounts protected by multi-factor authentication (MFA) are not required to rotate passwords on a fixed schedule, and instead rotate only when there is evidence of compromise. Privileged / administrative accounts must rotate credentials every 90 days regardless of MFA status.\n4. Multi-Factor Authentication (MFA)"
+      },
+      {
+        "rank": 2,
+        "document": "PasswordPolicy.docx",
+        "page": null,
+        "content": "4. Multi-Factor Authentication (MFA)\nMFA is required for all Company accounts without exception, using Okta Verify as the primary method. Approved factors are, in order of preference:\nPush notification via Okta Verify (preferred)\nHardware security key (FIDO2 / YubiKey) — required for all IT Administrator accounts\nTime-based one-time passcode (TOTP) authenticator app\nSMS text message (permitted only as a fallback method, not primary)\n5. Account Lockout Policy\nAccounts are automatically locked after 5 consecutive failed login attempts within a 15-minute window. Locked accounts remain locked for 30 minutes or until unlocked by the IT Service Desk after identity verification.\n6. Approved Password Manager\n1Password Business is the Company's approved password manager and is provisioned automatically to all employees. Employees are strongly encouraged to use it to generate and store unique passwords for every account, and must use it for any shared team credentials.\n7. Prohibited Practices"
+      },
+      {
+        "rank": 3,
+        "document": "PasswordPolicy.docx",
+        "page": null,
+        "content": "7. Prohibited Practices\nWriting passwords down or storing them in unencrypted files or documents.\nSharing passwords with another employee, contractor, or third party under any circumstance.\nUsing the same password across multiple Company systems or across work and personal accounts.\nDisabling or bypassing MFA prompts, including “MFA fatigue” approval of unrecognized push notifications.\n8. Reporting a Compromised Password\nIf you suspect your password or account has been compromised, or you approved an MFA push notification you did not initiate, immediately change your password, then contact the IT Service Desk at itsupport@northwindtraders.example or extension 4357 (HELP). Do not wait for confirmation of a breach before reporting.\n9. Exceptions\nAny exception to this policy requires written approval from the Chief Information Security Officer (CISO) and must be documented and reviewed at least annually."
+      },
+      {
+        "rank": 4,
+        "document": "Pricing2025.pdf",
+        "page": 1,
+        "content": "Single sign-on (SSO)\nNo\nYes\nYes\nCustom reporting\nNo\nYes\nYes\nAudit logs & data residency controls\nNo\nNo\nYes\nUptime SLA\n99.5%\n99.5%\n99.9%\n4. Add-On Modules\n\nAdvanced Analytics: +$12/seat/month\n\nPremium Integrations Pack: +$8/seat/month\n\nAdditional sandbox environment: $250/month flat\n\nOnboarding & implementation package: starting at $4,000 one-time (Enterprise only)\n5. Billing Terms\nMonthly billing is available on all tiers. Annual, prepaid contracts receive a 15% discount versus monthly billing\n(see the Discount Schedule for full details). Standard contract term is 12 months with auto-renewal, cancellable\nwith 30 days' written notice prior to renewal."
+      },
+      {
+        "rank": 5,
+        "document": "NDA.docx",
+        "page": null,
+        "content": "4. Term\nThis Agreement remains in effect for two (2) years from the Effective Date. Each Party's confidentiality obligations survive for three (3) years following disclosure of the relevant Confidential Information, or indefinitely for information that qualifies as a trade secret under applicable law.\n5. Compelled Disclosure\nRecipient may disclose Confidential Information to the extent required by law or court order, provided Recipient gives Discloser prompt written notice (where legally permitted) so Discloser may seek a protective order, and discloses only the portion of Confidential Information legally required.\n6. Return or Destruction of Materials\nUpon Discloser's written request, Recipient shall promptly return or destroy all materials containing Confidential Information, except for archival copies retained solely for legal or compliance purposes, which remain subject to this Agreement.\n7. No License"
+      }
+    ]
+  },
+  {
+    "id": "Q004",
+    "question": "What is the NDA confidentiality period?",
+    "expected_answer": "Confidentiality obligations survive for three years following disclosure, or indefinitely for information that qualifies as a trade secret.",
+    "expected_document": "NDA.docx",
+    "type": "straightforward",
+    "difficulty": "easy",
+    "expected_facts": [
+      "three years",
+      "trade secret"
+    ],
+    "generated_answer": "The NDA confidentiality obligations survive for three (3) years following disclosure of the relevant Confidential Information, or indefinitely for information that qualifies as a trade secret under applicable law. The Agreement itself remains in effect for two (2) years from the Effective Date.",
+    "retrieved_documents": [
+      {
+        "rank": 1,
+        "document": "NDA.docx",
+        "page": null,
+        "content": "2. Obligations of Receiving Party\nRecipient shall: (a) use Confidential Information solely to evaluate or pursue the Purpose; (b) protect it using at least the same degree of care it uses for its own confidential information of similar importance, and no less than reasonable care; and (c) not disclose it to any third party without Discloser's prior written consent, except to Recipient's employees, contractors, and advisors who have a need to know and are bound by confidentiality obligations at least as protective as those in this Agreement.\n3. Exclusions\nConfidential Information does not include information that: (a) is or becomes publicly available through no fault of Recipient; (b) was rightfully known to Recipient before disclosure; (c) is rightfully received from a third party without a duty of confidentiality; or (d) is independently developed by Recipient without use of or reference to the Discloser's Confidential Information.\n4. Term"
+      },
+      {
+        "rank": 2,
+        "document": "NDA.docx",
+        "page": null,
+        "content": "4. Term\nThis Agreement remains in effect for two (2) years from the Effective Date. Each Party's confidentiality obligations survive for three (3) years following disclosure of the relevant Confidential Information, or indefinitely for information that qualifies as a trade secret under applicable law.\n5. Compelled Disclosure\nRecipient may disclose Confidential Information to the extent required by law or court order, provided Recipient gives Discloser prompt written notice (where legally permitted) so Discloser may seek a protective order, and discloses only the portion of Confidential Information legally required.\n6. Return or Destruction of Materials\nUpon Discloser's written request, Recipient shall promptly return or destroy all materials containing Confidential Information, except for archival copies retained solely for legal or compliance purposes, which remain subject to this Agreement.\n7. No License"
+      },
+      {
+        "rank": 3,
+        "document": "NDA.docx",
+        "page": null,
+        "content": "Mutual Non-Disclosure Agreement (Template)\nNorthwind Traders, Inc.  |  Legal Department  |  Template Version: 3.1  |  For internal / mock use only — not a binding agreement\nThis Mutual Non-Disclosure Agreement (“Agreement”) is entered into as of [Effective Date] by and between Northwind Traders, Inc., a Delaware corporation with offices at 400 Commerce Way, Suite 200, Wilmington, DE 19801 (“Northwind”), and [Counterparty Legal Name], with offices at [Counterparty Address] (“Counterparty”), each a “Party” and together the “Parties,” in connection with a possible business relationship between them (the “Purpose”). This is a mock template for internal / sample-data use and is not a binding legal document.\n1. Definition of Confidential Information"
+      },
+      {
+        "rank": 4,
+        "document": "NDA.docx",
+        "page": null,
+        "content": "1. Definition of Confidential Information\n“Confidential Information” means any non-public information disclosed by one Party (“Discloser”) to the other (“Recipient”), whether orally, in writing, or by inspection, that is designated as confidential or that a reasonable person would understand to be confidential given the nature of the information and the circumstances of disclosure, including but not limited to business plans, financial information, product roadmaps, source code, and customer data.\n2. Obligations of Receiving Party"
+      },
+      {
+        "rank": 5,
+        "document": "VendorContract.pdf",
+        "page": 1,
+        "content": "3. Payment Terms\nClient shall pay all undisputed invoiced amounts within thirty (30) days of receipt (“Net 30”). Amounts not paid\nwhen due accrue interest at 1.0% per month or the maximum rate permitted by law, whichever is lower. Vendor\nshall provide reasonably detailed invoices referencing the applicable SOW.\n4. Confidentiality\nEach Party agrees to protect the other Party's Confidential Information using at least the same degree of care it\nuses for its own confidential information of similar importance, and no less than reasonable care, and to use\nsuch information solely to perform its obligations under this Agreement. This obligation survives termination of\nthis Agreement for a period of five (5) years, or indefinitely for trade secrets.\n5. Intellectual Property\nExcept as expressly set forth in an SOW, each Party retains ownership of its pre-existing intellectual property.\nDeliverables specifically created for Client under an SOW and paid in full shall be deemed “works made for"
+      }
+    ]
+  },
+  {
+    "id": "Q005",
+    "question": "What is the leave policy?",
+    "expected_answer": "The Leave & Time Off Policy covers PTO, sick leave, parental leave, bereavement leave, jury duty and civic leave, company holidays, requesting leave, unplanned absences, and leave without pay.",
+    "expected_document": "LeavePolicy.pdf",
+    "type": "broad",
+    "difficulty": "medium",
+    "expected_facts": [
+      "PTO",
+      "sick leave",
+      "parental leave",
+      "bereavement leave"
+    ],
+    "generated_answer": "The leave policy at Northwind Traders, Inc. provides various paid and unpaid leave benefits to all regular full-time and part-time U.S.-based employees. Key points include:\n\n1. **Annual / Paid Time Off (PTO):**  \n   - Full-time employees accrue PTO bi-weekly from their first day; part-time employees accrue on a pro-rated basis.  \n   - Accrual rates and maximum carryover depend on years of service, ranging from 15 to 25 days annually, with carryover limits from 5 to 10 days and accrual caps from 22.5 to 32.5 days.\n\n2. **Sick Leave:**  \n   - Employees receive 10 days of paid sick leave per calendar year, credited in full on January 1 or on the start date for new hires.  \n   - Unused sick leave does not carry over and is not paid out upon separation.\n\n3. **Parental Leave:**  \n   - Eligible employees (90+ days of continuous service) receive 12 weeks of paid parental leave after the birth, adoption, or foster placement of a child.  \n   - Leave can be taken continuously or intermittently within 12 months, subject to manager approval for intermittent use.\n\n4. **Bereavement Leave:**  \n   - Up to 5 paid days for the death of an immediate family member (spouse, child, parent, sibling).  \n   - Up to 2 paid days for an extended family member.\n\n5. **Jury Duty & Civic Leave:**  \n   - Paid leave is provided for jury duty and voting, consistent with state law. Employees must provide a jury summons to their manager and HR.\n\n6. **Company-Observed Holidays:**  \n   - Includes New Year's Day, Memorial Day, Juneteenth, Independence Day, Labor Day, Thanksgiving Day, Day after Thanksgiving, Christmas Eve, Christmas Day, and New Year's Eve (half day).\n\n7. **Requesting Leave:**  \n   - PTO requests of 3 days or fewer require at least 5 business days' notice via the WorkdayHR portal.  \n   - Requests for more than 3 consecutive days require 15 business days' notice and written manager approval.\n\n8. **Unplanned Absences:**  \n   - Employees must notify their manager by phone or Slack no later than the start of their scheduled shift.  \n   - More than 3 unplanned absences in a rolling 90-day period may trigger a review under Attendance Guidelines.\n\n9. **Leave Without Pay:**  \n   - May be granted at the Company's discretion after all paid leave is exhausted, requiring VP-level approval. Benefits continuation during unpaid leave is addressed separately.\n\nFor questions, employees can contact the People Operations team at people-ops@northwindtraders.example or via the #ask-hr Slack channel.",
+    "retrieved_documents": [
+      {
+        "rank": 1,
+        "document": "LeavePolicy.pdf",
+        "page": 1,
+        "content": "Northwind Traders, Inc. — Internal Use Only\nPage 1\nLeave & Time Off Policy\nNorthwind Traders, Inc. | Human Resources | Effective: January 1, 2026 | Version 4.2 | Policy Owner: VP, People\nOperations\n1. Purpose & Scope\nThis policy explains the paid and unpaid leave benefits available to all regular full-time and part-time employees\nof Northwind Traders, Inc. (“the Company”). It applies to all U.S.-based employees unless a separate country-\nor state-specific addendum applies.\n2. Types of Leave\n2.1 Annual / Paid Time Off (PTO)\nFull-time employees accrue PTO on a bi-weekly basis starting on their first day of employment. Part-time\nemployees accrue PTO on a pro-rated basis according to scheduled hours.\nYears of Service\nAnnual Accrual\nMax Carryover\nAccrual Cap\n0 – 2 years\n15 days\n5 days\n22.5 days\n3 – 5 years\n20 days\n5 days\n27.5 days\n6 – 10 years\n23 days\n10 days\n30 days\n11+ years\n25 days\n10 days\n32.5 days\n2.2 Sick Leave"
+      },
+      {
+        "rank": 2,
+        "document": "LeavePolicy.pdf",
+        "page": 1,
+        "content": "Max Carryover\nAccrual Cap\n0 – 2 years\n15 days\n5 days\n22.5 days\n3 – 5 years\n20 days\n5 days\n27.5 days\n6 – 10 years\n23 days\n10 days\n30 days\n11+ years\n25 days\n10 days\n32.5 days\n2.2 Sick Leave\nEmployees receive 10 days of paid sick leave per calendar year, credited in full on January 1 (or on the\nemployee's start date for new hires). Unused sick leave does not carry over and is not paid out upon\nseparation.\n2.3 Parental Leave\nEligible employees (90+ days of continuous service) receive 12 weeks of paid parental leave following the birth,\nadoption, or foster placement of a child. Parental leave may be taken continuously or intermittently within 12\nmonths of the qualifying event, subject to manager approval for intermittent scheduling.\n2.4 Bereavement Leave\nUp to 5 paid days for the death of an immediate family member (spouse, child, parent, sibling) and up to 2 paid\ndays for an extended family member.\n2.5 Jury Duty & Civic Leave"
+      },
+      {
+        "rank": 3,
+        "document": "LeavePolicy.pdf",
+        "page": 2,
+        "content": "review under the Attendance Guidelines.\n5. Leave Without Pay\nUnpaid leave may be granted at the Company's discretion once an employee has exhausted all applicable paid\nleave balances, and requires VP-level approval. Benefits continuation during unpaid leave is addressed in the\nBenefits Guide.\n6. Questions\nDirect questions to the People Operations team at people-ops@northwindtraders.example or via the #ask-hr\nSlack channel."
+      },
+      {
+        "rank": 4,
+        "document": "LeavePolicy.pdf",
+        "page": 1,
+        "content": "2.4 Bereavement Leave\nUp to 5 paid days for the death of an immediate family member (spouse, child, parent, sibling) and up to 2 paid\ndays for an extended family member.\n2.5 Jury Duty & Civic Leave\nThe Company provides paid leave for jury duty and voting, consistent with state law. Employees must provide a\ncopy of the jury summons to their manager and HR.\n2.6 Company-Observed Holidays\n\nNew Year's Day"
+      },
+      {
+        "rank": 5,
+        "document": "LeavePolicy.pdf",
+        "page": 2,
+        "content": "Northwind Traders, Inc. — Internal Use Only\nPage 2\n\nMemorial Day\n\nJuneteenth\n\nIndependence Day\n\nLabor Day\n\nThanksgiving Day\n\nDay after Thanksgiving\n\nChristmas Eve\n\nChristmas Day\n\nNew Year's Eve (half day)\n3. Requesting Leave\nPTO requests of 3 days or fewer should be submitted through the WorkdayHR portal at least 5 business days in\nadvance. Requests of more than 3 consecutive days require 15 business days' notice and written manager\napproval. Approval is based on business needs and team coverage, and requests are addressed in the order\nreceived.\n4. Unplanned Absences\nEmployees who are unexpectedly unable to work must notify their direct manager no later than the start of their\nscheduled shift, by phone or Slack. More than 3 unplanned absences in a rolling 90-day period may trigger a\nreview under the Attendance Guidelines.\n5. Leave Without Pay\nUnpaid leave may be granted at the Company's discretion once an employee has exhausted all applicable paid"
+      }
+    ]
+  },
+  {
+    "id": "Q006",
+    "question": "What is the price of a Ferrari?",
+    "expected_answer": null,
+    "expected_document": null,
+    "type": "unanswerable",
+    "difficulty": "easy",
+    "expected_facts": [],
+    "generated_answer": "I don't have enough information in the provided knowledge base to answer this question.",
+    "retrieved_documents": [
+      {
+        "rank": 1,
+        "document": "Discounts.xlsx",
+        "page": null,
+        "content": "Billing Term,,Annual (prepaid),\r\nVolume Discount,,0.15,\r\nTerm Discount,,0.15,\r\nCombined Discount (capped at 40%),,0.3,\r\nList Price ($/seat/mo),,65,\r\nFinal Price ($/seat/mo),,45.5,\r\n,,,\r\nCombined discount is capped at 40% total without a CFO exception. See the 'Approval Thresholds' tab for the required sign-off level at each discount band.,,,"
+      },
+      {
+        "rank": 2,
+        "document": "TravelPolicy.docx",
+        "page": null,
+        "content": "Class of service is determined by flight duration and traveler level, per the table below.\n4. Hotel Accommodations\nNightly rate caps (excluding taxes and fees) are set by city cost tier:\nBookings above the cap require pre-approval from a Director or above, and should be booked at the Company's negotiated hotel partners where available.\n5. Ground Transportation & Rental Cars\nRideshare and taxi are preferred for trips under 1 hour from the airport or hotel.\nRental cars require Director approval and must be booked in the mid-size class or below, unless traveling with equipment or a group of 3+.\nPersonal vehicle use is reimbursed at the current IRS standard mileage rate.\n6. Meals & Incidentals\nEmployees may choose actual-cost reimbursement (with itemized receipts) or the standard per-diem rate below, but may not mix both methods within a single trip.\n7. International Travel"
+      },
+      {
+        "rank": 3,
+        "document": "Discounts.xlsx",
+        "page": null,
+        "content": "Sheet: Special Programs\nSpecial Program Discounts,Unnamed: 1,Unnamed: 2,Unnamed: 3\r\n\"Sales Operations  |  Effective: January 1, 2026  |  Version 2.0\",,,\r\n,,,\r\nProgram,Discount %,Eligibility Criteria,Illustrative Price ($/seat/mo)\r\nNon-Profit,0.2,Valid 501(c)(3) status (or equivalent non-U.S. registered charity).,52\r\nEducation,0.25,Accredited educational institution; requires institutional .edu (or equivalent) email domain.,48.75\r\nStartup — Year 1,0.3,Company incorporated under 3 years; total funding raised under $5M; verified by Sales Operations.,45.5\r\nStartup — Year 2 Renewal,0.15,Applies at first renewal following the Year 1 startup discount; reverts to standard pricing in Year 3.,55.25\r\n,,,\r\nSpecial program discounts do not stack with volume or term discounts; the highest applicable single discount applies. All special program accounts are subject to annual re-verification of eligibility.,,,"
+      },
+      {
+        "rank": 4,
+        "document": "Pricing2025.pdf",
+        "page": 1,
+        "content": "Northwind Traders, Inc. — Internal Use Only\nPage 1\nOrbitSuite Pricing — 2025 Rate Card\nNorthwind Traders, Inc. | Sales Operations | Effective: January 1, 2025 – December 31, 2025 | Version 1.4\n1. Overview\nThis document summarizes Northwind Traders' standard list pricing for the OrbitSuite platform, effective for\ncontracts signed in calendar year 2025. For custom or enterprise-negotiated pricing, contact Sales Operations.\n2. Subscription Tiers\nTier\nPrice / Seat / Month\nMinimum Seats\nSupport Level\nStarter\n$29\n5\nEmail, 2-business-day SLA\nProfessional\n$59\n10\nEmail + chat, next-business-day\nSLA\nEnterprise\n$99\n25\nDedicated CSM, 4-hour SLA\n3. Tier Feature Comparison\nFeature\nStarter\nProfessional\nEnterprise\nCore workflow automation\nYes\nYes\nYes\nAPI access\nLimited (1k calls/mo)\n50k calls/mo\nUnlimited\nSingle sign-on (SSO)\nNo\nYes\nYes\nCustom reporting\nNo\nYes\nYes\nAudit logs & data residency controls\nNo\nNo\nYes\nUptime SLA\n99.5%\n99.5%\n99.9%\n4. Add-On Modules\n\nAdvanced Analytics: +$12/seat/month\n"
+      },
+      {
+        "rank": 5,
+        "document": "Pricing2026.pdf",
+        "page": 2,
+        "content": "Northwind Traders, Inc. — Internal Use Only\nPage 2\n\nAdvanced Analytics: +$14/seat/month\n\nPremium Integrations Pack: +$9/seat/month\n\nAdditional sandbox environment: $275/month flat\n\nOnboarding & implementation package: starting at $4,500 one-time (Enterprise and above)\n6. Billing Terms\nMonthly billing is available on all tiers except Enterprise Plus, which requires annual prepaid billing. Annual,\nprepaid contracts receive a 15% discount versus monthly billing (see the Discount Schedule for full details).\nStandard contract term is 12 months with auto-renewal, cancellable with 30 days' written notice prior to\nrenewal.\n7. Notes\nPricing in this document reflects U.S. dollar list pricing effective January 1, 2026 and supersedes\nPricing2025.pdf. Regional resellers should apply local currency conversion per the quarterly FX update from\nSales Operations."
+      }
+    ]
+  },
+  {
+    "id": "Q007",
+    "question": "Compare the Enterprise and Professional pricing for 2026.",
+    "expected_answer": "For 2026, Enterprise is $109 per seat per month and Professional is $65 per seat per month.",
+    "expected_document": "Pricing2026.pdf",
+    "type": "multi-section",
+    "difficulty": "medium",
+    "expected_facts": [
+      "Enterprise",
+      "$109",
+      "Professional",
+      "$65",
+      "2026"
+    ],
+    "generated_answer": "For 2026, the pricing comparison between the Enterprise and Professional tiers is as follows:\n\n**Professional Tier:**\n- Price: $65 per seat per month\n- Minimum seats: 10\n- Support Level: Email + chat, next-business-day SLA\n- API limits: 100k calls/month (raised from 50k in 2025)\n- Features: Core workflow automation, API access, Single sign-on (SSO), Custom reporting\n- Audit logs & data residency controls: Not included\n\n**Enterprise Tier:**\n- Price: $109 per seat per month\n- Minimum seats: 25\n- Support Level: Dedicated Customer Success Manager (CSM), 4-hour SLA\n- API limits: Unlimited\n- Features: Core workflow automation, API access, Single sign-on (SSO), Custom reporting, Audit logs & data residency controls included\n- Uptime SLA: 99.9%\n\nIn summary, the Enterprise tier costs $44 more per seat per month than the Professional tier, requires a higher minimum seat count (25 vs. 10), offers a higher support level with dedicated CSM and faster SLA, unlimited API calls (vs. 100k calls/month), and includes audit logs and data residency controls which the Professional tier does not.",
+    "retrieved_documents": [
+      {
+        "rank": 1,
+        "document": "Pricing2026.pdf",
+        "page": 1,
+        "content": "Northwind Traders, Inc. — Internal Use Only\nPage 1\nOrbitSuite Pricing — 2026 Rate Card\nNorthwind Traders, Inc. | Sales Operations | Effective: January 1, 2026 | Version 1.0 | Supersedes: 2025 Rate Card (v1.4)\n1. Overview\nThis document summarizes Northwind Traders' standard list pricing for the OrbitSuite platform, effective for\ncontracts signed on or after January 1, 2026. It replaces the 2025 rate card. Customers on active 2025\ncontracts keep their contracted rate through their current renewal date.\n2. What's Changed for 2026\n\nList prices increased approximately 8–10% across all tiers to reflect added platform capacity.\n\nNew Enterprise Plus tier introduced for large, multi-region deployments.\n\nAPI limits raised on the Professional tier from 50k to 100k calls/month.\n\nAudit logs & data residency controls now included on Enterprise (previously Enterprise Plus only).\n3. Subscription Tiers\nTier\nPrice / Seat / Month\nMinimum Seats\nSupport Level\nStarter\n$32\n5\nEmail, 2-business-day SLA"
+      },
+      {
+        "rank": 2,
+        "document": "Pricing2026.pdf",
+        "page": 2,
+        "content": "Northwind Traders, Inc. — Internal Use Only\nPage 2\n\nAdvanced Analytics: +$14/seat/month\n\nPremium Integrations Pack: +$9/seat/month\n\nAdditional sandbox environment: $275/month flat\n\nOnboarding & implementation package: starting at $4,500 one-time (Enterprise and above)\n6. Billing Terms\nMonthly billing is available on all tiers except Enterprise Plus, which requires annual prepaid billing. Annual,\nprepaid contracts receive a 15% discount versus monthly billing (see the Discount Schedule for full details).\nStandard contract term is 12 months with auto-renewal, cancellable with 30 days' written notice prior to\nrenewal.\n7. Notes\nPricing in this document reflects U.S. dollar list pricing effective January 1, 2026 and supersedes\nPricing2025.pdf. Regional resellers should apply local currency conversion per the quarterly FX update from\nSales Operations."
+      },
+      {
+        "rank": 3,
+        "document": "Pricing2025.pdf",
+        "page": 1,
+        "content": "Northwind Traders, Inc. — Internal Use Only\nPage 1\nOrbitSuite Pricing — 2025 Rate Card\nNorthwind Traders, Inc. | Sales Operations | Effective: January 1, 2025 – December 31, 2025 | Version 1.4\n1. Overview\nThis document summarizes Northwind Traders' standard list pricing for the OrbitSuite platform, effective for\ncontracts signed in calendar year 2025. For custom or enterprise-negotiated pricing, contact Sales Operations.\n2. Subscription Tiers\nTier\nPrice / Seat / Month\nMinimum Seats\nSupport Level\nStarter\n$29\n5\nEmail, 2-business-day SLA\nProfessional\n$59\n10\nEmail + chat, next-business-day\nSLA\nEnterprise\n$99\n25\nDedicated CSM, 4-hour SLA\n3. Tier Feature Comparison\nFeature\nStarter\nProfessional\nEnterprise\nCore workflow automation\nYes\nYes\nYes\nAPI access\nLimited (1k calls/mo)\n50k calls/mo\nUnlimited\nSingle sign-on (SSO)\nNo\nYes\nYes\nCustom reporting\nNo\nYes\nYes\nAudit logs & data residency controls\nNo\nNo\nYes\nUptime SLA\n99.5%\n99.5%\n99.9%\n4. Add-On Modules\n\nAdvanced Analytics: +$12/seat/month\n"
+      },
+      {
+        "rank": 4,
+        "document": "Pricing2026.pdf",
+        "page": 1,
+        "content": "3. Subscription Tiers\nTier\nPrice / Seat / Month\nMinimum Seats\nSupport Level\nStarter\n$32\n5\nEmail, 2-business-day SLA\nProfessional\n$65\n10\nEmail + chat, next-business-day\nSLA\nEnterprise\n$109\n25\nDedicated CSM, 4-hour SLA\nEnterprise Plus\n$145\n100\nDedicated CSM + TAM, 1-hour\nSLA\n4. Tier Feature Comparison\nFeature\nStarter\nProfessional\nEnterprise\nEnterprise Plus\nCore workflow automation\nYes\nYes\nYes\nYes\nAPI access\nLimited (1k/mo)\n100k calls/mo\nUnlimited\nUnlimited\nSingle sign-on (SSO)\nNo\nYes\nYes\nYes\nCustom reporting\nNo\nYes\nYes\nYes\nAudit logs & data residency\nNo\nNo\nYes\nYes\nMulti-region deployment\nNo\nNo\nNo\nYes\nUptime SLA\n99.5%\n99.5%\n99.9%\n99.95%\n5. Add-On Modules"
+      },
+      {
+        "rank": 5,
+        "document": "Pricing2025.pdf",
+        "page": 1,
+        "content": "Single sign-on (SSO)\nNo\nYes\nYes\nCustom reporting\nNo\nYes\nYes\nAudit logs & data residency controls\nNo\nNo\nYes\nUptime SLA\n99.5%\n99.5%\n99.9%\n4. Add-On Modules\n\nAdvanced Analytics: +$12/seat/month\n\nPremium Integrations Pack: +$8/seat/month\n\nAdditional sandbox environment: $250/month flat\n\nOnboarding & implementation package: starting at $4,000 one-time (Enterprise only)\n5. Billing Terms\nMonthly billing is available on all tiers. Annual, prepaid contracts receive a 15% discount versus monthly billing\n(see the Discount Schedule for full details). Standard contract term is 12 months with auto-renewal, cancellable\nwith 30 days' written notice prior to renewal."
+      }
+    ]
+  },
+  {
+    "id": "Q008",
+    "question": "What about the Starter tier?",
+    "expected_answer": "The 2026 Starter tier is $32 per seat per month.",
+    "expected_document": "Pricing2026.pdf",
+    "type": "follow-up",
+    "difficulty": "hard",
+    "expected_facts": [
+      "Starter",
+      "$32",
+      "2026"
+    ],
+    "generated_answer": "The Starter tier for OrbitSuite pricing is as follows:\n\n- Price: $29 per seat per month in 2025; increased to $32 per seat per month in 2026.\n- Minimum seats: 5\n- Support level: Email support with a 2-business-day SLA\n- Features: Core workflow automation included; API access limited to 1,000 calls per month; no single sign-on (SSO); no custom reporting; no audit logs & data residency controls.\n- Uptime SLA: 99.5%\n\n(Information from Pricing2025.pdf, Page 1 and Pricing2026.pdf, Page 1)",
+    "retrieved_documents": [
+      {
+        "rank": 1,
+        "document": "Pricing2026.pdf",
+        "page": 1,
+        "content": "Northwind Traders, Inc. — Internal Use Only\nPage 1\nOrbitSuite Pricing — 2026 Rate Card\nNorthwind Traders, Inc. | Sales Operations | Effective: January 1, 2026 | Version 1.0 | Supersedes: 2025 Rate Card (v1.4)\n1. Overview\nThis document summarizes Northwind Traders' standard list pricing for the OrbitSuite platform, effective for\ncontracts signed on or after January 1, 2026. It replaces the 2025 rate card. Customers on active 2025\ncontracts keep their contracted rate through their current renewal date.\n2. What's Changed for 2026\n\nList prices increased approximately 8–10% across all tiers to reflect added platform capacity.\n\nNew Enterprise Plus tier introduced for large, multi-region deployments.\n\nAPI limits raised on the Professional tier from 50k to 100k calls/month.\n\nAudit logs & data residency controls now included on Enterprise (previously Enterprise Plus only).\n3. Subscription Tiers\nTier\nPrice / Seat / Month\nMinimum Seats\nSupport Level\nStarter\n$32\n5\nEmail, 2-business-day SLA"
+      },
+      {
+        "rank": 2,
+        "document": "Pricing2025.pdf",
+        "page": 1,
+        "content": "Northwind Traders, Inc. — Internal Use Only\nPage 1\nOrbitSuite Pricing — 2025 Rate Card\nNorthwind Traders, Inc. | Sales Operations | Effective: January 1, 2025 – December 31, 2025 | Version 1.4\n1. Overview\nThis document summarizes Northwind Traders' standard list pricing for the OrbitSuite platform, effective for\ncontracts signed in calendar year 2025. For custom or enterprise-negotiated pricing, contact Sales Operations.\n2. Subscription Tiers\nTier\nPrice / Seat / Month\nMinimum Seats\nSupport Level\nStarter\n$29\n5\nEmail, 2-business-day SLA\nProfessional\n$59\n10\nEmail + chat, next-business-day\nSLA\nEnterprise\n$99\n25\nDedicated CSM, 4-hour SLA\n3. Tier Feature Comparison\nFeature\nStarter\nProfessional\nEnterprise\nCore workflow automation\nYes\nYes\nYes\nAPI access\nLimited (1k calls/mo)\n50k calls/mo\nUnlimited\nSingle sign-on (SSO)\nNo\nYes\nYes\nCustom reporting\nNo\nYes\nYes\nAudit logs & data residency controls\nNo\nNo\nYes\nUptime SLA\n99.5%\n99.5%\n99.9%\n4. Add-On Modules\n\nAdvanced Analytics: +$12/seat/month\n"
+      },
+      {
+        "rank": 3,
+        "document": "Pricing2026.pdf",
+        "page": 1,
+        "content": "3. Subscription Tiers\nTier\nPrice / Seat / Month\nMinimum Seats\nSupport Level\nStarter\n$32\n5\nEmail, 2-business-day SLA\nProfessional\n$65\n10\nEmail + chat, next-business-day\nSLA\nEnterprise\n$109\n25\nDedicated CSM, 4-hour SLA\nEnterprise Plus\n$145\n100\nDedicated CSM + TAM, 1-hour\nSLA\n4. Tier Feature Comparison\nFeature\nStarter\nProfessional\nEnterprise\nEnterprise Plus\nCore workflow automation\nYes\nYes\nYes\nYes\nAPI access\nLimited (1k/mo)\n100k calls/mo\nUnlimited\nUnlimited\nSingle sign-on (SSO)\nNo\nYes\nYes\nYes\nCustom reporting\nNo\nYes\nYes\nYes\nAudit logs & data residency\nNo\nNo\nYes\nYes\nMulti-region deployment\nNo\nNo\nNo\nYes\nUptime SLA\n99.5%\n99.5%\n99.9%\n99.95%\n5. Add-On Modules"
+      },
+      {
+        "rank": 4,
+        "document": "Pricing2025.pdf",
+        "page": 1,
+        "content": "Single sign-on (SSO)\nNo\nYes\nYes\nCustom reporting\nNo\nYes\nYes\nAudit logs & data residency controls\nNo\nNo\nYes\nUptime SLA\n99.5%\n99.5%\n99.9%\n4. Add-On Modules\n\nAdvanced Analytics: +$12/seat/month\n\nPremium Integrations Pack: +$8/seat/month\n\nAdditional sandbox environment: $250/month flat\n\nOnboarding & implementation package: starting at $4,000 one-time (Enterprise only)\n5. Billing Terms\nMonthly billing is available on all tiers. Annual, prepaid contracts receive a 15% discount versus monthly billing\n(see the Discount Schedule for full details). Standard contract term is 12 months with auto-renewal, cancellable\nwith 30 days' written notice prior to renewal."
+      },
+      {
+        "rank": 5,
+        "document": "Pricing2026.pdf",
+        "page": 2,
+        "content": "Northwind Traders, Inc. — Internal Use Only\nPage 2\n\nAdvanced Analytics: +$14/seat/month\n\nPremium Integrations Pack: +$9/seat/month\n\nAdditional sandbox environment: $275/month flat\n\nOnboarding & implementation package: starting at $4,500 one-time (Enterprise and above)\n6. Billing Terms\nMonthly billing is available on all tiers except Enterprise Plus, which requires annual prepaid billing. Annual,\nprepaid contracts receive a 15% discount versus monthly billing (see the Discount Schedule for full details).\nStandard contract term is 12 months with auto-renewal, cancellable with 30 days' written notice prior to\nrenewal.\n7. Notes\nPricing in this document reflects U.S. dollar list pricing effective January 1, 2026 and supersedes\nPricing2025.pdf. Regional resellers should apply local currency conversion per the quarterly FX update from\nSales Operations."
+      }
+    ]
+  }
+]

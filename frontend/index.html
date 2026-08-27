@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Enterprise Knowledge Assistant</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="app">
+
+    <header class="header">
+
+        <div>
+            <h1>Enterprise Knowledge Assistant</h1>
+            <p>Ask questions about company policies, pricing, and procedures</p>
+        </div>
+
+        <button id="newChat" class="secondary-button">
+            New Chat
+        </button>
+
+    </header>
+
+
+    <div class="filters">
+
+        <div class="filter-group">
+
+            <label for="department">
+                Department
+            </label>
+
+            <select id="department">
+
+                <option value="">
+                    All Departments
+                </option>
+
+                <option value="Finance">
+                    Finance
+                </option>
+
+                <option value="HR">
+                    HR
+                </option>
+
+                <option value="IT">
+                    IT
+                </option>
+
+                <option value="Legal">
+                    Legal
+                </option>
+
+                <option value="Sales">
+                    Sales
+                </option>
+
+            </select>
+
+        </div>
+
+
+        <div class="filter-group">
+
+            <label for="document">
+                Document
+            </label>
+
+            <select id="document">
+
+                <option value="">
+                    All Documents
+                </option>
+
+                <option value="ExpensePolicy.pdf">
+                    ExpensePolicy.pdf
+                </option>
+
+                <option value="TravelPolicy.docx">
+                    TravelPolicy.docx
+                </option>
+
+                <option value="Benefits.pdf">
+                    Benefits.pdf
+                </option>
+
+                <option value="LeavePolicy.pdf">
+                    LeavePolicy.pdf
+                </option>
+
+                <option value="PasswordPolicy.docx">
+                    PasswordPolicy.docx
+                </option>
+
+                <option value="VPNGuide.pdf">
+                    VPNGuide.pdf
+                </option>
+
+                <option value="NDA.docx">
+                    NDA.docx
+                </option>
+
+                <option value="VendorContract.pdf">
+                    VendorContract.pdf
+                </option>
+
+                <option value="Discounts.xlsx">
+                    Discounts.xlsx
+                </option>
+
+                <option value="Pricing2025.pdf">
+                    Pricing2025.pdf
+                </option>
+
+                <option value="Pricing2026.pdf">
+                    Pricing2026.pdf
+                </option>
+
+            </select>
+
+        </div>
+
+    </div>
+
+
+    <main id="chat"></main>
+
+
+    <div class="input-area">
+
+        <input
+            id="question"
+            type="text"
+            placeholder="Ask a question..."
+            autocomplete="off"
+        >
+
+        <button id="send">
+            Send
+        </button>
+
+    </div>
+
+</div>
+
+
+<script src="app.js"></script>
+
+</body>
+</html>

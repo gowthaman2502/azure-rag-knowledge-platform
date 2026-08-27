@@ -1,0 +1,12 @@
+langchain
+langchain-community
+langchain-openai
+langchain-text-splitters
+langchain-azure-ai
+azure-storage-blob
+azure-search-documents
+python-dotenv
+pypdf
+python-docx
+openpyxl
+pandas

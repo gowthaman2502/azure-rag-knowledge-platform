@@ -1,0 +1,103 @@
+[
+  {
+    "id": "Q001",
+    "question": "What is the expense submission deadline?",
+    "expected_answer": "Expenses must be submitted through the ExpensePath system within 30 calendar days of the purchase date.",
+    "expected_document": "ExpensePolicy.pdf",
+    "expected_facts": [
+      "30 calendar days",
+      "purchase date"
+    ],
+    "difficulty": "easy",
+    "type": "straightforward"
+  },
+  {
+    "id": "Q002",
+    "question": "What is the Enterprise price?",
+    "expected_answer": "The 2026 Enterprise price is $109 per seat per month.",
+    "expected_document": "Pricing2026.pdf",
+    "expected_facts": [
+      "$109",
+      "per seat per month",
+      "2026"
+    ],
+    "difficulty": "medium",
+    "type": "version-sensitive"
+  },
+  {
+    "id": "Q003",
+    "question": "What is the password expiration policy?",
+    "expected_answer": "Standard user accounts protected by MFA do not require password rotation on a fixed schedule and only need rotation when there is evidence of compromise. Privileged or administrative accounts must rotate credentials every 90 days.",
+    "expected_document": "PasswordPolicy.docx",
+    "expected_facts": [
+      "90 days",
+      "MFA",
+      "privileged"
+    ],
+    "difficulty": "medium",
+    "type": "straightforward"
+  },
+  {
+    "id": "Q004",
+    "question": "What is the NDA confidentiality period?",
+    "expected_answer": "Confidentiality obligations survive for three years following disclosure, or indefinitely for information that qualifies as a trade secret.",
+    "expected_document": "NDA.docx",
+    "expected_facts": [
+      "three years",
+      "trade secret"
+    ],
+    "difficulty": "easy",
+    "type": "straightforward"
+  },
+  {
+    "id": "Q005",
+    "question": "What is the leave policy?",
+    "expected_answer": "The Leave & Time Off Policy covers PTO, sick leave, parental leave, bereavement leave, jury duty and civic leave, company holidays, requesting leave, unplanned absences, and leave without pay.",
+    "expected_document": "LeavePolicy.pdf",
+    "expected_facts": [
+      "PTO",
+      "sick leave",
+      "parental leave",
+      "bereavement leave"
+    ],
+    "difficulty": "medium",
+    "type": "broad"
+  },
+  {
+    "id": "Q006",
+    "question": "What is the price of a Ferrari?",
+    "expected_answer": null,
+    "expected_document": null,
+    "expected_facts": [],
+    "difficulty": "easy",
+    "type": "unanswerable"
+  },
+  {
+    "id": "Q007",
+    "question": "Compare the Enterprise and Professional pricing for 2026.",
+    "expected_answer": "For 2026, Enterprise is $109 per seat per month and Professional is $65 per seat per month.",
+    "expected_document": "Pricing2026.pdf",
+    "expected_facts": [
+      "Enterprise",
+      "$109",
+      "Professional",
+      "$65",
+      "2026"
+    ],
+    "difficulty": "medium",
+    "type": "multi-section"
+    },
+    {
+    "id": "Q008",
+    "question": "What about the Starter tier?",
+    "expected_answer": "The 2026 Starter tier is $32 per seat per month.",
+    "expected_document": "Pricing2026.pdf",
+    "expected_facts": [
+      "Starter",
+      "$32",
+      "2026"
+    ],
+    "difficulty": "hard",
+    "type": "follow-up"
+    }
+]
